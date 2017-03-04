@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1488635722 source:e:\blogsourcecode\project in c++\mini-project-in-cpp\studentdatabase\main.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	<cstdlib>
+	<conio.h>
+	<iomanip>
+
