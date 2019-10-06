@@ -1,4 +1,5 @@
-#include <conio.h>
+
+#include<iostream>
 #include <cstdio>
 #include <iostream>
 #include <string.h>
@@ -45,7 +46,7 @@ void vline(char ch)
 void a::install()
 
 {
-
+cout<<"Enter the following details"<<endl;
   cout<<"Enter bus no: ";
 
   cin>>bus[p].busn;
@@ -397,3 +398,18 @@ while(1)
 return 0;
 
 }
+
+  /*  © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About*/
+
