@@ -1,9 +1,5 @@
-#include <iostream>
-#include <cstdio>
-#include <cstring>
-#include <cstdlib>
-#include <conio.h>
-#include <iomanip>
+
+#include<bits/stdc++.h>
 
 using namespace std;
 int main() {

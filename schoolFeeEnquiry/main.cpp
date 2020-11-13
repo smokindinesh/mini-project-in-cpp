@@ -1,15 +1,5 @@
 //PROJECT SCHOOL FEE ENQUIRY
-#include <iostream>
-#include <windows.h>
-#include <fstream>
-#include <cstring>
-#include <cstdlib>
-#include <cstdio>
-#include <cctype>
-#include <conio.h>
-#include <ctime>
-#include <dos.h>
-#include <iomanip>
+#include<bits/stdc++.h>
 using namespace std;
 int i,j,li,lp,rec,valid;
 COORD coord = {0, 0};

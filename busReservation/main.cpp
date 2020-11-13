@@ -1,8 +1,4 @@
-#include <conio.h>
-#include <cstdio>
-#include <iostream>
-#include <string.h>
-#include <cstdlib>
+#include<bits/stdc++.h>
 
 using namespace std;
 

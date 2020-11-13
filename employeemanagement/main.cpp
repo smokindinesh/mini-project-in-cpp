@@ -1,22 +1,4 @@
-#include<iostream>
-
-#include<cstring>
-
-#include<cstdlib>
-
-#include<iomanip>
-
-#include<windows.h>
-
-//#include <ctime>
-
-//#include <dos.h>
-
-#include<dos.h>
-
-#include<conio.h>
-
-#include<cstdio>
+#include<bits/stdc++.h>
 
 #define max 20
 
