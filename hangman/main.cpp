@@ -17,7 +17,7 @@ do{
         c='\0';
         cout<<"\n\t\t    *********** HANGMAN IN C++ ***********\n\n";
 
-        cout<<"(E) Enter a word\n\n(C) Computer chooses word\n\n(A)";
+        cout<<"(E)please Enter a word\n\n(C) Computer chooses word\n\n(A)";
         cout<<"Add new word to list\n\n(Q) Quit\n\n\nEnter your choice (E - C - Q): ";
         cin>>ch2;
        }while (ch2!='C' && ch2!='c' && ch2!='E' && ch2!= 'e' &&

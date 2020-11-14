@@ -85,7 +85,7 @@ void mainmenu()
  }
  gotoxy(15,10);
 
- printf("Press the corresponding Keys for the desired action");
+ printf("Press the corresponding Keys for the desired action..");
  gotoxy(35,16);
 
  printf("F: FEE SLIP");

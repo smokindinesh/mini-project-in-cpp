@@ -1,4 +1,9 @@
-#include<bits/stdc++.h>
+
+#include<iostream>
+#include <cstdio>
+#include <iostream>
+#include <string.h>
+#include <cstdlib>
 
 using namespace std;
 
@@ -41,7 +46,7 @@ void vline(char ch)
 void a::install()
 
 {
-
+cout<<"Enter the following details"<<endl;
   cout<<"Enter bus no: ";
 
   cin>>bus[p].busn;
@@ -337,6 +342,10 @@ void a::avail()
 int main()
 
 {
+  ios_base::sync_with_stdio(false);
+	cin.tie(0);
+	cout.tie(0);
+  //Above 3 lines will fast the Input and output processes
 
 system("cls");
 
@@ -393,3 +402,18 @@ while(1)
 return 0;
 
 }
+
+  /*  © 2019 GitHub, Inc.
+    Terms
+    Privacy
+    Security
+    Status
+    Help
+
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About*/
+
