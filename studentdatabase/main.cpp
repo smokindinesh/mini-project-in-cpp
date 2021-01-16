@@ -38,15 +38,15 @@ struct student {
  while(1) {
      system("cls");
 
-     cout << "\t\t====== STUDENT INFORMATION SYSTEM ======";
+    std:: cout << "\t\t====== STUDENT INFORMATION SYSTEM ======";
      cout <<"\n\n                                          ";
      cout << "\n\n";
-     cout << "\n \t\t\t 1. Add    Records";
+    std:: cout << "\n \t\t\t 1. Add    Records";
      cout << "\n \t\t\t 2. List   Records";
      cout << "\n \t\t\t 3. Modify Records";
      cout << "\n \t\t\t 4. Delete Records";
      cout << "\n \t\t\t 5. Exit   Program";
-     cout << "\n\n";
+    std:: cout << "\n\n";
      cout << "\t\t\t Select Your Choice :=> ";
      fflush(stdin);
      choice = getche();

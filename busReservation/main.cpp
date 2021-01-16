@@ -37,7 +37,7 @@ void vline(char ch)
 
 {
 
-  for (int i=80;i>0;i--)
+  for (int i=70;i>0;i--)
 
   cout<<ch;
 
@@ -46,20 +46,20 @@ void vline(char ch)
 void a::install()
 
 {
-cout<<"Enter the following details"<<endl;
-  cout<<"Enter bus no: ";
+cout<<"Enter details"<<endl;
+  cout<<"Enter the bus no: ";
 
   cin>>bus[p].busn;
 
-  cout<<"\nEnter Driver's name: ";
+  cout<<"\nEnter the Driver's name: ";
 
   cin>>bus[p].driver;
 
-  cout<<"\nArrival time: ";
+  cout<<"\nArrivals time: ";
 
   cin>>bus[p].arrival;
 
-  cout<<"\nDeparture: ";
+  cout<<"\nDepartures time: ";
 
   cin>>bus[p].depart;
 
@@ -115,7 +115,7 @@ void a::allotment()
 
     {
 
-      cout<<"\nThere are only 32 seats available in this bus.";
+      cout<<"\n only 32 seats available in this bus.";
 
     }
 
@@ -127,9 +127,9 @@ void a::allotment()
 
       {
 
-        cout<<"Enter passanger's name: ";
+       std:: cout<<"Enter passanger's name: ";
 
-        cin>>bus[n].seat[seat/4][(seat%4)-1];
+        std:: cin>>bus[n].seat[seat/4][(seat%4)-1];
 
         break;
 
@@ -137,17 +137,15 @@ void a::allotment()
 
     else
 
-      cout<<"The seat no. is already reserved.\n";
+     std:: cout<<"The seat no. is already reserved.\n";
 
       }
 
       }
 
-    if(n>p)
+    if(n>p){
 
-    {
-
-      cout<<"Enter correct bus no.\n";
+      std::cout<<"Enter correct bus no.\n";
 
       goto top;
 
@@ -184,7 +182,7 @@ void a::show()
 
   char number[5];
 
-  cout<<"Enter bus no: ";
+  std::cout<<"Enter bus no: ";
 
   cin>>number;
 
@@ -323,7 +321,7 @@ void a::avail()
 
     vline('*');
 
-    cout<<"Bus no: \t"<<bus[n].busn<<"\nDriver: \t"<<bus[n].driver
+    std::cout<<"Bus no: \t"<<bus[n].busn<<"\nDriver: \t"<<bus[n].driver
 
     <<"\t\tArrival time: \t"<<bus[n].arrival<<"\tDeparture Time: \t"
 
@@ -343,8 +341,8 @@ int main()
 
 {
   ios_base::sync_with_stdio(false);
-	cin.tie(0);
-	cout.tie(0);
+	std::cin.tie(0);
+	std::cout.tie(0);
   //Above 3 lines will fast the Input and output processes
 
 system("cls");
@@ -402,18 +400,4 @@ while(1)
 return 0;
 
 }
-
-  /*  © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About*/
 
