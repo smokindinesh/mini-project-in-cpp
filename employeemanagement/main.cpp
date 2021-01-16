@@ -8,6 +8,7 @@
 
 #include<windows.h>
 
+
 //#include <ctime>
 
 //#include <dos.h>
@@ -144,17 +145,17 @@ printf("\n*****  Employees Management System 1.0 ***** ");
 
 //normvideo();
 
-cout<<endl;
+std::cout<<endl;
 
-cout<<"             ";
+std::cout<<"             ";
 
-cout<<"\n\t\t Press  b---->Built The Employee Table ";
+std::cout<<"\n\t\t Press  b---->Built The Employee Table ";
 
-cout<<"             ";
+std::cout<<"             ";
 
-cout<<"\n\t\t Press  l---->List The Employee Table  ";
+std::cout<<"\n\t\t Press  l---->List The Employee Table  ";
 
-cout<<"             ";
+std::cout<<"             ";
 
 cout<<"\n\t\t Press  i---->Insert New Entry        ";
 
@@ -228,13 +229,13 @@ void build()
 
   cin>>emp[i].exp;
 
-  cout<<"Age  ";
+  std::cout<<"Age  ";
 
-  cin>>emp[i].age;
+  std::cin>>emp[i].age;
 
  }
 
-  cout<<"going to main menu";
+  std::cout<<"going to main menu";
 
  Sleep(500);
 
@@ -255,9 +256,9 @@ void  list()
 
  //normvideo();
 
- cout<<"     Name     Code     Designation     Years(EXP)     Age "<<endl;
+ std::cout<<"     Name     Code     Designation     Years(EXP)     Age "<<endl;
 
- cout<<"    ------------------------------------------------------"<<endl;
+ std::cout<<"    ------------------------------------------------------"<<endl;
 
  for(int i=0;i<=num-1;i++)
 

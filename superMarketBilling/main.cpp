@@ -33,9 +33,9 @@ date d;
 public:
 void add()
 {
-cout<<"\n\n\tItem No: ";
+std::cout<<"\n\n\tItems No: ";
 cin>>itemno;
-cout<<"\n\n\tName of the item: ";
+std::cout<<"\n\n\tName of the items: ";
 cin>>name;
 //gets(name);
 cout<<"\n\n\tManufacturing Date(dd-mm-yy): ";
@@ -43,9 +43,9 @@ cin>>d.mm>>d.dd>>d.yy;
 }
 void show()
 {
-cout<<"\n\tItem No: ";
+cout<<"\n\tItems No: ";
 cout<<itemno;
-cout<<"\n\n\tName of the item: ";
+cout<<"\n\n\tName of the items: ";
 cout<<name;
 cout<<"\n\n\tDate : ";
 cout<<d.mm<<"-"<<d.dd<<"-"<<d.yy;

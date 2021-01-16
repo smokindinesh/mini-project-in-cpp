@@ -33,8 +33,8 @@ do{
     {
         ifstream fin("hangword.txt");
         if(!fin) {
-        cout<<"File missing, aborting.\n\nYou are missing a file of name";
-        cout<<"**hangword.txt**\n\nLocate it, then place it next to the program file.\n\n";
+       std:: cout<<"File missing, aborting.\n\nYou are missing a file of name";
+        std::cout<<"**hangword.txt**\n\nLocate it, then place it next to the program file.\n\n";
         system("pause"); return 0;}
         for (i=0;!fin.eof();i++)   fin.getline(word,25);
         fin.close();
@@ -63,8 +63,8 @@ do{
         cin>>h;
         cin.get();
         //clrscr();
-        cout<<"\n\nThe word should not exceed 25 letters\n\nEnter the word : ";
-        cin.getline(word,25);
+       std:: cout<<"\n\nThe word should not exceed 25 letters\n\nEnter the word : ";
+        std::cin.getline(word,25);
         fout<<h<<word<<endl;
         fout.close();
 
@@ -93,9 +93,9 @@ ng=l+2-n;     //only 2 guesses extra
    do{
    there:  type_of_word(c);
      if (k!=0)  cout<<"\n\n\t\t\tChoosen letters : "<<choosen<<"\n";
-     cout<<"\n\n\n\t\t\t      "<<word2<<"\n\n\nYou have "<<ng
+    std:: cout<<"\n\n\n\t\t\t      "<<word2<<"\n\n\nYou have "<<ng
      << " guesses left, choose a letter : ";
-     cin>>ch; cin.get();
+     std::cin>>ch; cin.get();
      for (i=0;i<25;i++) if (choosen[i]==ch) {//clrscr();
      cout<<"\a\t\t     !!You have choosen "<<ch<<" already!!\n";goto there;}
      ng--; choosen [k]=ch; choosen [k+1]=',';k+=2;
@@ -112,8 +112,9 @@ if (strcmpi (word2,word))  cout<<"\nSorry, maybe next time.\n\nThe word was : "
 <<strupr(word)<<endl;
 }
 
-cout<<"\nWould you like to play again??? (Y - N) : ";
-cin>>ch1;  cin.get();
+std::cout<<"\nWould you like to play again??? (Y - N) : ";
+std::cin>>ch1; 
+std:: cin.get();
 
 }while (ch1=='y' || ch1=='Y');
       system("PAUSE");
